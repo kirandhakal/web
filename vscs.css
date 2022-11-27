@@ -1,10 +1,6 @@
 body{
-  background-color:black;
+  color:black;
 }
- 
-
-body {margin: 5px;;}
-
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -69,15 +65,15 @@ body {margin: 5px;;}
   height:400px;
   margin-left: 20%;
   transform: translate(-50%, -50%)
-  background-image:url('munde.jpg');
+  background-image:url('web/msd/munde.jpg');
  background-size: 100% 100%;
  box-shadow: 1px 2px 10px 5px white;
  animation: slider 12s infinite linear;
 }
 @keyframes slider{
-  0%{  background-image:url('munde.jpg'); }
-  35%{   background-image:url('rty.jpg'); }
-  75%{   background-image:url('fb.png'); }
+  0%{  background-image:url('web/msd/munde.jpg'); }
+  35%{   background-image:url('web/msd/rty.jpg'); }
+  75%{   background-image:url('web/msd/fb.png'); }
 }
 .footer{
   color: rgb(225, 17, 17);

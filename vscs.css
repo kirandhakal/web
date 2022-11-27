@@ -1,5 +1,36 @@
+body{
+
+  background-size: cover;
+  background-color:black;
+opacity: 0.8;
+}
+ 
+
+body {margin: 5px;;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: right;
+  top: 0;
+  width: 100%;
+  padding: 4px;
+  margin-bottom: 10px;
+  border-radius: 15px;
 }
 
+.navbar a {
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 55px;
+
+
+}
 .navbar a:hover {
   background: rgb(155, 216, 13);
   transition: 1s;
@@ -7,8 +38,6 @@
   margin:2px;
   
 }
-
-
 .below{
   color :blue;
   text-shadow: 2px 2px yellow;
@@ -43,15 +72,15 @@
   height:400px;
   margin-left: 20%;
   transform: translate(-50%, -50%)
-  background-image:url('C:\Users/Dell/OneDrive/Desktop/News/munde.jpg');
+  background-image:url('munde.jpg');
  background-size: 100% 100%;
  box-shadow: 1px 2px 10px 5px white;
  animation: slider 12s infinite linear;
 }
 @keyframes slider{
-  0%{  background-image:url('C:\Users/Dell/OneDrive/Desktop/News/munde.jpg'); }
-  35%{   background-image:url('C:\Users/Dell/OneDrive/Desktop/News/rty.jpg'); }
-  75%{   background-image:url('C:\Users/Dell/OneDrive/Desktop/News/fb.png'); }
+  0%{  background-image:url('munde.jpg'); }
+  35%{   background-image:url('rty.jpg'); }
+  75%{   background-image:url('fb.png'); }
 }
 .footer{
   color: rgb(225, 17, 17);

@@ -1,0 +1,96 @@
+body{
+
+  
+  background-color:black;
+
+}
+    
+
+
+body {margin: 5px;;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: right;
+  top: 0;
+  width: 100%;
+  padding: 4px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 55px;
+}
+
+.navbar a:hover {
+  background: rgb(155, 216, 13);
+  transition: 1s;
+  padding: 8px;
+  margin:2px;
+  
+}
+
+
+.below{
+  color :blue;
+  text-shadow: 2px 2px yellow;
+  text-align:  center ;
+}
+
+.contain{
+  background-color: #ced1c29b;
+  border: 15px;
+  margin: 10px;
+  margin-left: 5px;
+  padding:10px;
+  border-radius: 25px;
+  text-align: center;
+  text-shadow: 1500cm;
+  color:rgb(218, 39, 23);
+  opacity: 100%;
+  border-color: red;
+  height: 200px;
+  box-shadow: 1px 2px 10px 5px rgb(204, 207, 18);
+}
+  
+
+.title{
+  color: #f4eb36e2;
+  font: bold;
+  text-align: center;
+  font-size: 350%;
+}
+.img{
+  width:60%;
+  height:400px;
+  margin-left: 20%;
+  transform: translate(-50%, -50%)
+  background-image:url('C:\Users/Dell/OneDrive/Desktop/News/munde.jpg');
+ background-size: 100% 100%;
+ box-shadow: 1px 2px 10px 5px white;
+ animation: slider 12s infinite linear;
+}
+@keyframes slider{
+  0%{  background-image:url('C:\Users/Dell/OneDrive/Desktop/News/rty.jpg'); }
+  35%{   background-image:url('C:\Users/Dell/OneDrive/Desktop/News/munde.jpg'); }
+  65%{   background-image:url('C:\Users/Dell/OneDrive/Desktop/News/kiran.jpg'); }
+}
+.footer{
+  color: rgb(225, 17, 17);
+  font-size: 20px;
+  text-align: center ;
+  
+}
+
+h2.below:hover, h2.below:active {font-family: monospace;}
+
+</style>

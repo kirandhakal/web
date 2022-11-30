@@ -67,15 +67,15 @@ body {
   height:400px;
   margin-left: 20%;
   transform: translate(-50%, -50%)
-  background-image:url('C:\Users/Dell/OneDrive/Desktop/News/munde.jpg');
+  background-image:url('munde.jpg');
  background-size: 100% 100%;
  box-shadow: 1px 2px 10px 5px white;
  animation: slider 12s infinite linear;
 }
 @keyframes slider{
-  0%{  background-image:url('C:\Users/Dell/OneDrive/Desktop/News/rty.jpg'); }
-  35%{   background-image:url('C:\Users/Dell/OneDrive/Desktop/News/munde.jpg'); }
-  65%{   background-image:url('C:\Users/Dell/OneDrive/Desktop/News/kiran.jpg'); }
+  0%{  background-image:url('rty.jpg'); }
+  35%{   background-image:url('munde.jpg'); }
+  65%{   background-image:url('kiran.jpg'); }
 }
 .footer{
   color: rgb(225, 17, 17);
